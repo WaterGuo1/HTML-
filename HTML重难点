@@ -1,0 +1,71 @@
+HTML的常用标签
+1.a标签
+      href:写地址，用//开头更容易被识别 写文件夹的路径 写文件的路径  写邮箱，手机  写#回到顶部
+      title:鼠标放上去就能显示提示
+      target：_blank在新窗口打开标签  _top在最上级窗口打开 _parent在上一级打开 _self在本窗口打开
+      download：下载
+2.img标签
+       src:图片的地址，网络地址，本地地址
+       alt：图片挂了的时候显示
+       title:鼠标放上去就能显示提示
+       img事件
+             onload：图片加载成功的反馈（f12查看）
+             onerro：图片挂了的时候换上替补图片
+       img响应式（适应手机平板各种显示设备）：max-width:100%
+3.table标签
+     table：最外层
+     thead:表头
+     tbody：表的内容
+     tfoot：表尾
+     tr：一行的内容
+     th：表头的内容有加粗的效果
+     td：表里面的内容 数据之类的
+     行 列各有表头：第一个tr里面是th，每一个tr里面第一个是th
+
+```html
+<table>
+        <thead>
+            <tr>
+                <th>蔬菜</th>
+                <th>水果</th>
+                <th>文具</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>白菜</td>
+                <td>苹果</td>
+                <td>铅笔</td>
+            </tr>
+            <tr>
+                <td>萝卜</td>
+                <td>香蕉</td>
+                <td>本子</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>星期一</th>
+                <th>星期二</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>上午</th>
+                <td>语文</td>
+                <td>数学</td>
+            </tr>
+            <tr>
+                <th>下午</th>
+                <td>体育</td>
+                <td>音乐</td>
+            </tr>
+        </tbody>
+         </table>
+```
+补充：
+1.iframe 套嵌窗口标签，现在不用了
+2.form标签：现在做了简单了解 后面css进一步学习
